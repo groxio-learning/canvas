@@ -4,6 +4,13 @@ defmodule Canvas do
     <svg
       width="100" height="200"
       xmlns="http://www.w3.org/2000/svg">
+
+      <!-- Background rectangle -->
+        <rect width="100%" height="100%" fill="#F0F0F0" />
+
+      <!-- Border rectangle -->
+      <rect width="100%" height="100%" fill="none" stroke="black" stroke-width="2" />
+
       #{draw(contents, 10)}
     </svg>
     """
